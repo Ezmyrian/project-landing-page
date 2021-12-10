@@ -1,22 +1,61 @@
 body {
-    display: flex;
     margin: 0;
     font-family: Verdana, sans-serif;
 }
 
-h1 {
-    color: #F9FAF8;
-    font-weight: 800;
-    font-size: 48px;
-    margin: 0 20px 20px 20px;
+body, h2, .section1, .section2, .section3, .section4, .cars, .header, .header-links, .quote, .intro, .footer {
+    display: flex;
 }
 
-h2 {
+.section2, .section3, .intro {
+    flex-direction: column;
+}
+
+h1, .section4, .logo, .footer-text, .button1, .button2 {
+    color: #F9FAF8;
+}
+
+.quote, h2 {
     font-size: 36px;
-    font-weight: 800;
+}
+
+.section1, .header, .footer {
+    background-color: #1F2937;
+}
+
+h2, .quote {
     color: #1F2937;
-    display: flex;
+}
+
+.quote, .button2div {
+    align-self: center;
+}
+
+.footer, .cars, h2 {
     justify-content: center;
+}
+
+h1, h2 {
+    font-weight: 800;
+}
+
+.header-links, .logo {
+    align-items: center;
+}
+
+.button1, .button2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.section1, .cars {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0 20px 20px 20px;
 }
 
 h3 {
@@ -36,36 +75,20 @@ h3 {
 }
 
 .section1 {
-    background-color: #1F2937;
-    display: flex;
-    flex: 1;
     padding: 100px;
-}
-
-.section2 {
-    display: flex;
-    flex-direction: column;
 }
 
 .section3 {
     background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
 }
 
 .section4 {
-    background-color: #3882F6;
     margin: 80px 160px;
-    color: #F9FAF8;
     padding: 60px 120px;
-    display: flex;
     gap: 80px;
 }
 
 .cars {
-    display: flex;
-    flex: 1;
-    justify-content: center;
     gap: 40px;
 }
 
@@ -75,22 +98,16 @@ h3 {
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     padding: 16px;
-    background-color: #1F2937;
 }
 
 .header-links {
-    display: flex;
     gap: 12px;
-    align-items: center;
 }
 
 .logo {
-    color: #F9FAF8;
     font-size: 24px;
-    align-items: center;
 }
 
 .herotext, a {
@@ -104,12 +121,8 @@ h3 {
 }
 
 .quote {
-    font-size: 36px;
-    color: #1F2937;
     font-style: italic;
     max-width: 1000px;
-    display: flex;
-    align-self: center;
     margin-bottom: -30px;
     margin-top: 150px;
 }
@@ -126,24 +139,12 @@ a {
     text-decoration: none;
 }
 
-.footer {
-    background-color: #1F2937;
-}
-
-.footer-text {
-    color: #F9FAF8;
-}
-
-.button1, .button2 {
-    color: white;
+.button1, .button2, .section4 {
     background-color: #3882F6;
 }
 
 .button1 {
     align-self: flex-start;
-    border-radius: 6px;
-    width: 100px;
-    height: 30px;
     margin-left: 20px;
     margin-top: 15px;
     border: none;
@@ -151,14 +152,6 @@ a {
 
 .button2 {
     border: 2px solid #F9FAF8;
-    border-radius: 6px; 
-    width: 100px;
-    height: 30px;
-}
-
-.intro {
-    display: flex;
-    flex-direction: column;
 }
 
 .silver {
@@ -168,12 +161,6 @@ a {
     margin-top: 60px;
 }
 
-.button2div {
-    align-self: center;
-}
-
 .footer {
     padding: 40px;
-    display: flex;
-    justify-content: center;
 }
