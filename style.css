@@ -53,9 +53,13 @@ h1, h2 {
     flex: 1;
 }
 
+.herotext, a {
+    color: #E5E7EB;
+}
+
 h1 {
     font-size: 48px;
-    margin: 0 20px 20px 20px;
+    margin: 0 20px 20px 0;
 }
 
 h3 {
@@ -99,25 +103,16 @@ h3 {
 
 .header {
     justify-content: space-between;
-    padding: 16px;
-}
-
-.header-links {
-    gap: 12px;
+    padding: 16px 100px;
 }
 
 .logo {
     font-size: 24px;
 }
 
-.herotext, a {
-    font-size: 18px;
-    color: #E5E7EB;
-    margin: 0 40px 20px 0;
-}
-
 .herotext {
-    margin: 0 20px;
+    font-size: 18px;
+    margin: 0 40px 20px 0;
 }
 
 .quote {
@@ -137,6 +132,7 @@ h3 {
 
 a {
     text-decoration: none;
+    margin-left: 20px;
 }
 
 .button1, .button2, .section4 {
@@ -145,7 +141,6 @@ a {
 
 .button1 {
     align-self: flex-start;
-    margin-left: 20px;
     margin-top: 15px;
     border: none;
 }
