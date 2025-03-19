@@ -14,7 +14,8 @@ body,
 ul,
 .hero,
 .information, 
-.car-info {
+.car-info,
+.quote {
     display: flex;
 }
 
@@ -100,7 +101,6 @@ img {
 
 .information {
     padding: 30px 175px;
-    flex-direction: column;
 }
 
 .car-info {
@@ -123,4 +123,27 @@ h3 {
     border: 5px solid #3882F6;
     border-radius: 15px;
     height: 100%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 30px 225px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.information,
+.quote {
+    flex-direction: column;
+}
+
+.signature {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
+    padding-right: 20px;
 }
