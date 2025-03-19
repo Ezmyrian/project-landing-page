@@ -13,7 +13,7 @@ body,
 .header, 
 ul,
 .hero,
-.information,
+.information, 
 .car-info {
     display: flex;
 }
@@ -115,8 +115,8 @@ h3 {
     color: #1F2937;
 }
 
-.car-pic {
-    max-height: 200px;
+.pic-container {
+    height: 200px;
 }
 
 .pic {
