@@ -12,7 +12,9 @@ body {
 body,
 .header, 
 ul,
-.hero {
+.hero,
+.information,
+.car-info {
     display: flex;
 }
 
@@ -25,19 +27,18 @@ ul,
 .header {
     font-size: 24px;
     justify-content: space-between;
-    align-items: center;
     padding: 10px 175px;
 }
 
 .header,
 .hero {
     background-color: #1F2937;
+    align-items: center;
 }
 
 .hero {
     padding: 75px 175px;
     gap: 30px;
-    align-items: center;
 }
 
 .header,
@@ -91,4 +92,35 @@ button {
 
 div {
     flex: 1;
+}
+
+img {
+    max-width: 200px;
+}
+
+.information {
+    padding: 30px 175px;
+    flex-direction: column;
+}
+
+.car-info {
+    gap: 30px;
+}
+
+h3 {
+    align-self: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.car-pic {
+    max-height: 200px;
+}
+
+.pic {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    height: 100%;
 }
