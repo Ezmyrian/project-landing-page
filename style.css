@@ -16,7 +16,8 @@ ul,
 .information, 
 .car-info,
 .quote,
-.call-to-action {
+.call-to-action,
+.footer {
     display: flex;
 }
 
@@ -33,7 +34,8 @@ ul,
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
     align-items: center;
 }
@@ -45,7 +47,8 @@ ul,
 
 .header,
 h2,
-button {
+button,
+.footer {
     color: #F9FAF8;
 }
 
@@ -165,4 +168,9 @@ h3 {
 
 h4 {
     font-size: 22px;
+}
+
+.footer {
+    justify-content: center;
+    padding: 30px 0;
 }
